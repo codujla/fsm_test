@@ -39,7 +39,7 @@ begin
             q_out => q_out
         );
                         
-     STIMULUS: process
+    STIMULUS: process is
     begin
         -- reset
         reset <= '1';
